@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="488.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="400.0" prefWidth="497.0" style="-fx-background-color: green; ">
+            <children>
+                <Text fill="#ffbbbb" rotate="-3.6" stroke="#8c3a3a" strokeType="OUTSIDE" strokeWidth="0.0" text="Тестовый чат 0511" textAlignment="CENTER" underline="true" wrappingWidth="564.26171875">
+                    <font>
+                        <Font name="Calibri" size="25.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="50.0" top="50.0" />
+                    </VBox.margin></Text>
+                <Button alignment="CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#buttonOn" style="-fx-background-color: red;" text="Вход в чат" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+                    <font>
+                        <Font name="Bell MT" size="28.0" />
+                    </font>
+               <VBox.margin>
+                  <Insets top="70.0" />
+               </VBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+                </Button>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
